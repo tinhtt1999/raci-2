@@ -57,7 +57,7 @@ body
 {
     width: 100%;
     max-width: 100%;
-/*     animation: around 2s infinite; */
+    /* animation: around 2s infinite; */
 }
 .video-logo
 {
@@ -436,9 +436,11 @@ header .bg
 {
     border-radius: 20px;
     width: 100%;
+    margin: 25px 0;
 }
 #playtoearn h2,
-.img-play,
+.img-play img,
+/* .img-play, */
 .about-content,
 .about-logo,
 #tokenomics h2,
