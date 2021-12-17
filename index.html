@@ -24,7 +24,7 @@
 </head>
 <body>
     <div id="loading">
-        <img src="assets/img/b2g-gif.gif" alt="Loading..." id="loading-img">
+        <img src="assets/img/elon-musk.png" alt="Loading..." id="loading-img">
     </div>
     <header>
         <div class="header-btnmenu">
@@ -142,6 +142,7 @@
             <div class="img-play">
                 <img src="assets/img/fight2.gif" alt="">
                 <img src="assets/img/BG4B.jpg" alt="">
+                <img src="assets/img/b2g-gif.gif" alt="">
             </div>
         </div>
         <div id="about">
@@ -258,7 +259,7 @@
             setTimeout(function()
             {
                 $('.video-logo').addClass('animate__animated animate__fadeInDown');
-            },1000);
+            },1500);
             // setTimeout(function()
             // {
             //     $('#loading').hide();
@@ -349,7 +350,14 @@
                         $('.img-play img:first-child').addClass('animate__animated animate__fadeInUp');
                     },1000);
                 }
-                if(pos_body>playtoearn-200)
+                if(pos_body>playtoearn-100)
+                {
+                    setTimeout(function()
+                    {
+                        $('.img-play img:nth-child(2)').addClass('animate__animated animate__fadeInUp');
+                    },2000);
+                }
+                if(pos_body>playtoearn+100)
                 {
                     setTimeout(function()
                     {
