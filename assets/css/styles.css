@@ -55,9 +55,9 @@ body
 }
 #loading-img
 {
-    width: 200px;
+    width: 100%;
     max-width: 100%;
-    animation: around 2s infinite;
+/*     animation: around 2s infinite; */
 }
 .video-logo
 {
