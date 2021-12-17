@@ -249,15 +249,19 @@
             // function removeload()
             // {
             //     $('#loading').hide();
-            // } 
-            setTimeout(function()
-            {
-                $('.video-logo').addClass('animate__animated animate__fadeInDown');
-            },2100);
-            setTimeout(function()
+            // }
+            $(window).on('load',function()
             {
                 $('#loading').hide();
-            },2000);  
+            });
+//             setTimeout(function()
+//             {
+//                 $('.video-logo').addClass('animate__animated animate__fadeInDown');
+//             },2100);
+//             setTimeout(function()
+//             {
+//                 $('#loading').hide();
+//             },2000);  
             var x = $(window).width();
             // $(window).resize(function(event)
             // {
